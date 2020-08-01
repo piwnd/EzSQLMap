@@ -57,16 +57,18 @@ def main():
                     table = input("\033[1;32mInput A Database To Get Tables:")
                     os.system("sqlmap -u " + website + "--tables -D " + table)
                elif opcion0 == "4":
+                    table1 = input("\033[1;32mInput A Database To Get Tables:")
                     column = input("\033[1;32mInput A Table To Get Columns:")
-                    os.system("sqlmap -u " + website + "--tables -D " + table + "-T " + column)
+                    os.system("sqlmap -u " + website + "--tables -D " + table1 + "-T " + column)
                elif opcion0 == "5":
                    os.system("sqlmap -u " + website + "--dbs " + wafpy)
                elif opcion0 == "6":
                    tablep = input("\033[1;32mInput A Database To Get Tables:")
                    os.system("sqlmap -u " + website + "--tables -D " + tablep + wafpy)
                elif opcion0 == "7":
+                   tablep1 = input("\033[1;32mInput A Database To Get Tables:")
                    columnp = input("\033[1;32mInput A Table To Get Columns:")
-                   os.system("sqlmap -u " + website + "--tables -D " + table + "-T " + column + wafpy)
+                   os.system("sqlmap -u " + website + "--tables -D " + tablep1 + "-T " + column + wafpy)
                elif opcion0 == "8": 
                    print("""\033[93m
         ___
