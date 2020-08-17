@@ -6,7 +6,7 @@ import sys
 
 os.system("clear")
 
-webbrowser.get("firefox").open("http://kurd-h.org/")
+webbrowser.open("http://kurd-h.org/")
 def main():
     try:
        print("""\033[93m
@@ -99,7 +99,7 @@ def main():
                    print("\033[94mWait 5 Second To Open A Hack Decrypt Website")
                    print("\033[93mAlert! You Must Have Firefox To Open")
                    time.sleep(5)
-                   webbrowser.get("firefox").open("https://hashes.com/en/decrypt/hash")
+                   webbrowser.open("https://hashes.com/en/decrypt/hash")
                    print("\033[1mIf Website Does Not Open This Is A Link https://hashes.com/en/decrypt/hash")
                
                elif opcion0 == "help":
